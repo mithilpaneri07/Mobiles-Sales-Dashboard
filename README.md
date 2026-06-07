@@ -50,19 +50,17 @@ The dashboard helps business users analyze sales data and make data-driven decis
 •Mobile Brand Logo Selection<br>
 
 
-
 <h2>Total Transactions</h2>
-```
+<br>
 Transactions = COUNTROWS(Sales_Data)
-```
 <h2>Total Sales</h2>
-```
+<br>
 Total Sales = SUMX(Sales_Data,Sales_Data[Units Sold]*Sales_Data[Price Per Unit])
-```
 
 
 
-- 🔄 Data Transformation Using Power Query
+
+- 🔄 Data Transformation Using Power Query<br>
 
 The following transformations were performed:<br>
 •Data Cleaning<br>
@@ -103,7 +101,7 @@ The following transformations were performed:<br>
 
 ---
 
-## Dashboard Preview
-![Mobile Sales Dashboard](dashboard_images.png)
+## Dashboard Preview<br>
+![Mobile Sales Dashboard](dashboard_image.png)
 
 
